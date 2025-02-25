@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head lang="es">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>LocalStorage</title>
+
+        <script>
+            let numero = Math.floor(Math.random() * 10)+1; 
+            localStorage.setItem('numero',numero);
+        </script>
+
+    </head>
+    <body>
+        
+        <h1 id="title"></h1>
+
+        <script>
+            document.getElementById('title').innerText = `El número random es: ${localStorage.getItem('numero')}`;
+        </script>
+    </body>
+</html>
