@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pantalón vaquero",
+        "descripcion": "Pantalón de mezclilla azul",
+        "precio": 39.99,
+        "stock": 20,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/92/Denimjeans2.JPG",
+        "categoria": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Pantalón cargo",
+        "descripcion": "Pantalón cómodo con bolsillos adicionales",
+        "precio": 42.99,
+        "stock": 25,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Cargo_pants_001.jpg",
+        "categoria": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Pantalón deportivo",
+        "descripcion": "Pantalón ajustado para hacer ejercicio",
+        "precio": 34.99,
+        "stock": 30,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/8/84/Tracksuit_bottoms.jpg",
+        "categoria": 1
+    },
+    {
+        "id": 4,
+        "nombre": "Pantalón chino",
+        "descripcion": "Pantalón elegante para ocasiones formales",
+        "precio": 44.99,
+        "stock": 18,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Chino_pants.jpg",
+        "categoria": 1
+    },
+    {
+        "id": 5,
+        "nombre": "Pantalón de lino",
+        "descripcion": "Pantalón ligero para el verano",
+        "precio": 39.99,
+        "stock": 1,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://b2c-media.maxmara.com/sys-master/m0/MM/2025/1/6131145106/005/s3details/6131145106005-w-murge_normal.jpg",
+        "categoria": 1
+    },
+    {
+        "id": 6,
+        "nombre": "Sudadera con capucha",
+        "descripcion": "Sudadera negra con bolsillo delantero",
+        "precio": 29.99,
+        "stock": 15,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Sudadera_urban.jpg",
+        "categoria": 2
+    },
+    {
+        "id": 7,
+        "nombre": "Sudadera sin capucha",
+        "descripcion": "Sudadera básica para cualquier ocasión",
+        "precio": 27.99,
+        "stock": 0,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Jersei-coll-alt.jpg",
+        "categoria": 2
+    },
+    {
+        "id": 8,
+        "nombre": "Sudadera estampada",
+        "descripcion": "Sudadera con diseño gráfico",
+        "precio": 32.99,
+        "stock": 10,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2bqSYnOpILig1sJql1x5xqOJ9NQRnWdyuKQ&s",
+        "categoria": 2
+    },
+    {
+        "id": 9,
+        "nombre": "Sudadera deportiva",
+        "descripcion": "Sudadera ajustada para entrenar",
+        "precio": 34.99,
+        "stock": 12,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Windjack_-_Windbreaker.jpg",
+        "categoria": 2
+    },
+    {
+        "id": 10,
+        "nombre": "Camiseta blanca",
+        "descripcion": "Camiseta de algodón blanco",
+        "precio": 14.99,
+        "stock": 30,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/c/cd/T-Shirt_Wikipedia_white.jpg",
+        "categoria": 3
+    },
+    {
+        "id": 11,
+        "nombre": "Camiseta negra",
+        "descripcion": "Camiseta básica de color negro",
+        "precio": 14.99,
+        "stock": 25,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/3/37/T-Shirt_Wikipedia_black.jpg",
+        "categoria": 3
+    },
+    {
+        "id": 12,
+        "nombre": "Camisa Moderna",
+        "descripcion": "Camiseta con diseño moderno",
+        "precio": 19.99,
+        "stock": 2,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://importexma.es/16700-home_default/jn1372-men-s-shirt-slim-fit-.jpg",
+        "categoria": 3
+    },
+    {
+        "id": 13,
+        "nombre": "Camiseta de manga larga",
+        "descripcion": "Camiseta cómoda para clima frío",
+        "precio": 22.99,
+        "stock": 18,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "categoria": 3
+    },
+    {
+        "id": 14,
+        "nombre": "Camisa de lino",
+        "descripcion": "Camisa ligera ideal para verano",
+        "precio": 24.99,
+        "stock": 10,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://www.egomadrid.com/2580-large_default/mazzarelli-camisa-lino-azul-turquesa.jpg",
+        "categoria": 4
+    },
+    {
+        "id": 15,
+        "nombre": "Camisa a cuadros",
+        "descripcion": "Camisa de estilo casual",
+        "precio": 27.99,
+        "stock": 20,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Check_shirt.jpg",
+        "categoria": 4
+    },
+    {
+        "id": 16,
+        "nombre": "Camisa formal",
+        "descripcion": "Camisa para ocasiones elegantes",
+        "precio": 29.99,
+        "stock": 18,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaN3DIsIMTKM_xG3xVepao5F4f5ewaNPfm6Q&s",
+        "categoria": 4
+    },
+    {
+        "id": 17,
+        "nombre": "Camisa hawaiana",
+        "descripcion": "Camisa fresca con estampado tropical",
+        "precio": 24.99,
+        "stock": 14,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://shoppinginibiza.com/178038-large_default/camisa-hawaiana-azul-26106-01-unisex.jpg",
+        "categoria": 4
+    },
+    {
+        "id": 18,
+        "nombre": "Chaqueta de cuero",
+        "descripcion": "Chaqueta de cuero sintético",
+        "precio": 59.99,
+        "stock": 3,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://e-gothiczone.com/24348-thickbox_default/cazadora-de-cuero-clasica-cruzada-ami.jpg",
+        "categoria": 5
+    },
+    {
+        "id": 19,
+        "nombre": "Chaqueta de mezclilla",
+        "descripcion": "Chaqueta estilo denim",
+        "precio": 49.99,
+        "stock": 8,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://w7.pngwing.com/pngs/324/140/png-transparent-blue-washed-denim-button-up-jacket-jean-jacket-denim-h-m-jeans-women-s-jackets-blue-women-accessories-cowboy-thumbnail.png",
+        "categoria": 5
+    },
+    {
+        "id": 20,
+        "nombre": "Chaqueta acolchada",
+        "descripcion": "Chaqueta para clima frío",
+        "precio": 69.99,
+        "stock": 12,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/d/df/MA-1_Jacket_in_petrol.jpg",
+        "categoria": 5
+    },
+    {
+        "id": 21,
+        "nombre": "Chaqueta impermeable",
+        "descripcion": "Chaqueta para días de lluvia",
+        "precio": 74.99,
+        "stock": 0,
+        "fecha_creacion": "2025-02-02",
+        "imagen": "https://www.bfgcdn.com/1500_1500_90/002-0698-5311/the-north-face-stratos-jacket-chaqueta-impermeable.jpg",
+        "categoria": 5
+    }
+]

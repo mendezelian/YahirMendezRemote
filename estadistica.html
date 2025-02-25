@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadísticas</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <h1>Estadísticas de la Tienda</h1>
+        <img src="../Web-R/Icons/textile_svgrepo.com.png" alt="logo">
+    </header>
+
+    <div class="content">
+        <p>Seleccione una de las estadísticas a continuación para ver información relevante sobre el rendimiento de la tienda.</p>
+
+        <!-- Desplegable para elegir estadística -->
+        <select id="estadisticaSelector">
+            <option >-Elige estadística-</option>
+            <option value="gananciasTotales">Total de las Ganancias</option>
+            <option value="productosBajoStock">Productos con stock bajo (&lt; 5)</option>
+            <option value="clientesMasPedidos">Clientes con más pedidos (&gt; 10)</option>
+            <option value="gananciasPorMes">Ganancias por Mes</option>
+            <option value="productosNuncaComprados">Productos Nunca Comprados</option>
+            <option value="productosMasGanancia">Productos con más de 500€ de ganancia</option>
+        </select>
+
+        <!-- Área para mostrar la estadística seleccionada -->
+        <div id="estadisticas">
+            <h3 id="tituloEstadistica">Selecciona una estadística para mostrar.</h3>
+            <p id="descripcionEstadistica">Aquí aparecerá la información cuando selecciones una estadística.</p>
+        </div>
+
+        <!-- Botón para volver a index.html -->
+        <a href="index.html" class="button">Volver al inicio</a>
+    </div>
+
+    <script src="estadistica.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        input[type="text"], input[type="email"], input[type="password"] , input[type="telefono"]{
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #a0454b;
+        }
+        .message {
+            text-align: center;
+            margin-top: 10px;
+            color: #555;
+        }
+    </style>
+</head>
+<header>
+    <h1>UsurbilTex</h1>
+    <img src="../Icons/textile_svgrepo.com.png" alt="logo">
+    <nav>
+        <!--  <input type="checkbox" id="menu">
+        <label for="menu"><img src="../Icons/search-alt-2_svgrepo.com.png" alt=""></label>-->
+        <ul>
+            <li class="active"><a href="index.html">Inicio</a></li>
+            <div class="desplegable">
+                <li class=""><a href="producto.html">Productos</a></li>
+                <ul class="contenido-desplegable">
+                    <li><a href="zapatos.html">ZAPATOS</a></li>
+                    <li><a href="pantalones.html">PANTALONES</a></li>
+                    <li><a href="camisetas.html">CAMISETAS</a></li>
+                    <li><a href="sudaderas.html">SUDADERAS</a></li>
+                    <li><a href="camisas.html"></a>CAMISAS</li>
+                    <li><a href="chaquetas.html"></a>CHAQUETAS</li>
+                </ul>
+            </div>
+            <li><a href="cesta.html">Carrito</a></li>
+            <li><a href="PerfilUsuario.html">Usuario</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+
+    <div class="container">
+        <h2>Registro de Usuario</h2>
+        <form action="/registrar" method="POST">
+               
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" placeholder="Crea una contraseña" required>
+            
+            <label for="nombre">Nombre </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+
+            <label for="telefono">Apellidos</label>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Ingresa tus apellidos" required>
+
+            <label for="dirección">Dirección</label>
+            <input type="text" id="direccion" name="direccion" placeholder="Ingresa tu dirección" required>
+            
+            <label for="CodigoPostal">Código Postal</label>
+            <input type="text" id="CP" name="CP" placeholder="Ingresa Código Postal" required>
+            
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Ingresa teléfono" required>
+
+            
+            <button type="submit">Registrar</button>
+        </form>
+        <div class="message">
+            <p>¿Ya tienes una cuenta? <a href="#">Inicia sesión aquí</a></p>
+        </div>
+    </div>
+    <footer>
+        <div>
+           <p>POLITICAS DE COOKIES</p>
+           <P>POLITICAS DE PRIVACIDAD</P>
+           <a href="mailto:usurbiltex@gmail.eus">CONTACTO: USURBILTEX </a>
+        </div>
+        <footer class="footer">
+            <div class="footer-content">
+                <div id="politicas">
+                    <p>POLITICAS DE COOKIES</p>
+                    <p>POLITICAS DE PRIVACIDAD</p>
+                    <a href="mailto:usurbiltex@gmail.eus">CONTACTO: USURBILTEX </a>
+                </div>
+                <div id="redes">
+                    <h3>SIGUENOS EN REDES SOCIALES</h3>
+                    <a href="https://www.instagram.com"><img src="../Icons/instagram-round_svgrepo.com.png"
+                            alt="instagram"></a>
+                    <a href="https://www.facebook.com"><img src="../Icons/Vector.png" alt="facebook"></a>
+                </div>
+                <div id="licencia">
+                    <img src="../Icons/image 1.png" alt="imgfooter">
+                    <p>USURBIL TEX 2025 &COPY;</p>
+                </div> 
+            </div>
+        </footer>
+</body>
+</html>

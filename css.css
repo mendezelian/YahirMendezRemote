@@ -1,0 +1,500 @@
+/* Estilos generales */
+body {
+    font-family: 'Baloo2', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+header img {
+    height: 40px;
+}
+
+nav {
+    flex-grow: 1;
+   
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    flex: 1;
+    text-align: center;
+    
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 10%;
+    display: block;
+    
+}
+nav ul li a img {
+ display: none;
+}
+
+nav ul .desplegable:hover .contenido-desplegable {
+    display: block;
+    
+}
+
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#logo img {
+    height: 50px;
+    width: auto;
+}
+
+#logo h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+.contenido-desplegable {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    z-index: 10;
+    width: 300px; /* Same width as .producto */
+   
+}
+
+.contenido-desplegable li {
+    padding: 0.5rem 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section#inicio h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+section#inicio img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    height: auto;
+}
+
+section .tendencia {
+    text-align: center;
+}
+
+section .tendencia img {
+    max-width: 100%;
+    height: auto;
+}
+
+section .newsletter {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f0f0f0;
+}
+
+section .newsletter input {
+    width: 250px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+section .newsletter button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+section .newsletter button:hover {
+    background-color: #555;
+}
+
+#rebaja {
+    max-width: 70%;
+    height: auto;
+    padding: 0px 160px;
+}
+
+.tarjeta {
+    background-color: #e6e5e5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    width: calc(33.355% - 2rem);
+    vertical-align: top;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#coleccion {
+    position: relative;
+    width: 100%;
+    max-width: 100;
+}
+
+#coleccion img {
+    width: 70%;
+    height: auto;
+    padding: 0px 160px;
+}
+
+#coleccion p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#newsletter {
+    background-color: #d6d4d4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#newsletter input {
+    width: 250px;
+    padding: 0.5rem;
+    margin-bottom: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#newsletter button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+#newsletter img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 1rem;
+}
+
+.footer {
+    grid-area: grid;
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-areas: "politicas redes"
+        "politicas redes"
+        "libre licencia";
+    column-gap: 6%;
+    grid-template-columns: 40% 40%;
+}
+
+#politicas {
+    grid-area: politicas;
+}
+
+#redes {
+    grid-area: redes;
+}
+
+#licencia {
+    grid-area: licencia;
+    display: flex;
+    text-align: right;
+    
+}
+
+#lincencia img {
+    align-items: center;
+}
+
+#licencia p {
+    align-items: right;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+
+.producto h2 {
+    height:55px; 
+    overflow:hidden
+}
+
+.producto img {
+    width: 70%;
+    height:250px;
+    margin-top:20px;
+    border-radius: 5px;
+}
+.producto button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.producto-carrito {
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+#productos-lista {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 50px;
+}
+
+#carrito {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#finalizar{
+    padding:15px;
+    background-color: rgb(108, 108, 205);
+    color: white;
+    border-radius: 5px;
+    
+}
+#vaciar{
+  color: rgb(233, 39, 4);
+}
+.carrito{
+    padding: 0% 15%;
+}
+.total{
+    padding: 0% 15%;
+    align-content: right;
+    
+}
+
+
+.content {
+
+    padding: 20px;
+}
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+.button:hover {
+    background-color: #040404;
+}
+select {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+#estadisticas {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    /* Estilo General del Nav */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 0;
+    margin: 0;
+    z-index: 100;
+    list-style: none;
+}
+
+/* Estilo de los Ítems del Nav */
+nav ul li {
+    flex: 1;
+    text-align: center;
+}
+nav ul li a span {
+    display: none;
+}
+
+
+nav ul li a {
+    display: block;
+    color: #333;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+/* Estilo de las Imágenes de Íconos */
+nav ul li a img {
+    display: block;
+    margin: 0 auto;
+    width: 24px;
+    height: 24px;
+}
+
+/* Hover para los Enlaces */
+nav ul li a:hover {
+    color: #000;
+}
+
+/* Estilo del Menú Desplegable */
+.contenido-desplegable {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    list-style: none;
+    text-align: left;
+}
+
+.desplegable:hover .contenido-desplegable {
+    display: block;
+}
+
+.contenido-desplegable li {
+    padding: 0.5rem;
+}
+
+.contenido-desplegable li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.contenido-desplegable li a:hover {
+    color: #000;
+}
+
+
+.tarjeta {
+    width: calc(100% - 2rem);
+    margin-right: 0;
+    margin-left: 0;
+}
+.footer {
+    grid-area: grid;
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-areas: "politicas redes"
+        "politicas redes"
+        "libre licencia";
+    column-gap: 6%;
+    grid-template-columns: 40% 40%;
+}
+#licencia {
+    flex-direction: column;
+    justify-content: center;
+}
+
+#licencia img {
+    margin-bottom: 0.5rem;
+}
+
+#licencia p {
+    text-align: center;
+    width: 100%;
+}
+}
+
